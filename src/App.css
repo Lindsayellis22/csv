@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.users {
+  padding: 1rem;
+    background-color: gray;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+  color: white;
+  
+  
+
+}
+.users li {
+width: 100%;
+display: flex;
+flex-direction: column;
+background: var(--clr-white);
+padding: 1rem 2rem;
+border-radius: var(--radius);
+text-align: left;
+font-weight: bold;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +56,40 @@
 .App-link {
   color: #61dafb;
 }
+
+.btn {
+  display: inline-block;
+  background: #5B8CA8;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2%;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: white;
+  color: #5B8CA8;
+  border: solid #5B8CA8 3px;
+}
+
+.header {
+  background: #5B8CA8;
+  color: white;
+  text-align: center;
+  padding: 35px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 
 @keyframes App-logo-spin {
   from {
